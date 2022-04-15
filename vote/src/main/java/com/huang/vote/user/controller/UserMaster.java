@@ -11,11 +11,9 @@ public class UserMaster {
 
   private static final Logger log = LoggerFactory.getLogger(UserMaster.class);
 
-  /**
-   * user點選創建帳號，便開始執行
-   */
+  /** user點選創建帳號，便開始執行 */
   @PostMapping
-    public void createUser(User user){
-
-    }
+  public void createUser(User user) {
+    log.info("開始創建user");
+  }
 }

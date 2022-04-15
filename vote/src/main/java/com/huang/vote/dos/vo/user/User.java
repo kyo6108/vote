@@ -1,49 +1,58 @@
 package com.huang.vote.dos.vo.user;
 
 public class User {
-    private Integer userAcount;
-    private String userPassword;
-    private String createDate;
-    private Boolean alive;
-    private String lastUpdateDate;
+  private Integer userAcount;
+  private String userPassword;
+  private String createDate;
+  private Boolean alive;
+  private String lastUpdateDate;
+  private Integer userAuto;
 
-    public Integer getUserAcount() {
-        return userAcount;
-    }
+  public Integer getUserAuto() {
+    return userAuto;
+  }
 
-    public void setUserAcount(Integer userAcount) {
-        this.userAcount = userAcount;
-    }
+  public void setUserAuto(Integer userAuto) {
+    this.userAuto = userAuto;
+  }
 
-    public String getUserPassword() {
-        return userPassword;
-    }
+  public Integer getUserAcount() {
+    return userAcount;
+  }
 
-    public void setUserPassword(String userPassword) {
-        this.userPassword = userPassword;
-    }
+  public void setUserAcount(Integer userAcount) {
+    this.userAcount = userAcount;
+  }
 
-    public String getCreateDate() {
-        return createDate;
-    }
+  public String getUserPassword() {
+    return userPassword;
+  }
 
-    public void setCreateDate(String createDate) {
-        this.createDate = createDate;
-    }
+  public void setUserPassword(String userPassword) {
+    this.userPassword = userPassword;
+  }
 
-    public Boolean getAlive() {
-        return alive;
-    }
+  public String getCreateDate() {
+    return createDate;
+  }
 
-    public void setAlive(Boolean alive) {
-        this.alive = alive;
-    }
+  public void setCreateDate(String createDate) {
+    this.createDate = createDate;
+  }
 
-    public String getLastUpdateDate() {
-        return lastUpdateDate;
-    }
+  public Boolean getAlive() {
+    return alive;
+  }
 
-    public void setLastUpdateDate(String lastUpdateDate) {
-        this.lastUpdateDate = lastUpdateDate;
-    }
+  public void setAlive(Boolean alive) {
+    this.alive = alive;
+  }
+
+  public String getLastUpdateDate() {
+    return lastUpdateDate;
+  }
+
+  public void setLastUpdateDate(String lastUpdateDate) {
+    this.lastUpdateDate = lastUpdateDate;
+  }
 }
